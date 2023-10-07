@@ -12,8 +12,9 @@ an image tag, a kind of ``bubble``. For example, ::
     define e = Character(None, image="eileen", kind=bubble) # Eileen
     define l = Character(None, image="lucy", kind=bubble)   # Lucy
 
-While a name is supported, in general the speaking character will be
+While a name is supported, and shown in the bubbles if provided, in general the speaking character will be
 implied by the tails of the bubble, so the name can be omitted.
+Note that omitting the names will leave your chat history without names.
 
 You may then use these characters to write dialogue normally.
 
